@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Invia email</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-open">
+          <span>
+            <i class="fa fa-bars">Checkbox</i>
+          </span>
+          <span>
+            <i class="fa fa-bars"></i>
+          </span>
+          <span>
+            <i class="fa fa-bars"> </i>
+          </span>
+        </label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="invia_email.php">Invia email</a></li>
+          <li><a href="leggi_email.php">Leggi email</a></li>
+        </ul>
+      </nav>
+      
+
     <h1>Invia email</h1>
     <p>Compila il form per inviare un'email.</p>
+    <section class="animation">
+        <div>
+            <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width: 200px;">
+        </div>        
+    </section>
     <form action="invia_email.php" method="post">
         <label for="destinatario">Destinatario:</label>
         <input type="email" id="destinatario" name="destinatario" required><br>

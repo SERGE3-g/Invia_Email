@@ -1,0 +1,174 @@
+/* navbar*/
+nav {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Stili per dispositivi mobili */
+  @media (max-width: 600px) {
+    nav {
+      justify-content: space-between;
+    }
+    
+    .menu-open {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+    }
+    
+    .menu-open span {
+      display: block;
+      background-color: #fff;
+      height: 3px;
+      margin-bottom: 5px;
+    }
+    
+    ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+      padding: 10px;
+    }
+    
+    ul.open {
+      display: flex;
+    }
+    
+    ul li {
+      margin: 10px 0;
+    }
+    
+    ul a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  
+
+
+/* form*/
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    border: 1px solid #3e8e41;
+    direction: ltr;
+    
+}
+
+.animation {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.animation {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.animation div {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+.animation div img {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -90%);
+}
+
+@keyframes mymove {
+    0% {
+        background-color: #4CAF50;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #2196F3;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: #f44336;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: #FFEB3B;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: #4CAF50;
+        left: 0px;
+        top: 0px;
+    }
+}
+

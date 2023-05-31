@@ -14,7 +14,7 @@ const mailOptions = {
     from: 'gueaserge2@gmail.com',
     to: 'guea.serge@pec.it',
     subject: 'Oggetto prova',
-    text: 'Contenuto ciao sono una prova',
+    text: 'Contenuto ciao sono una prova2',
 };
 
 transporter.sendMail(mailOptions, (error, info) => {

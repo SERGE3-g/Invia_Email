@@ -90,4 +90,4 @@ var sendEmail = function (to, subject, body) { return __awaiter(void 0, void 0, 
     });
 }); };
 // Esempio di invio di un'email
-sendEmail('sergeguea.info@gmail.com', 'prova', 'ciao sono una prova');
+sendEmail('sergeguea.info@gmail.com', 'prova', 'ciao sono una prova2');

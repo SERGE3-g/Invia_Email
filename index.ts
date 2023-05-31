@@ -48,7 +48,7 @@ const sendEmail = async (to: string, subject: string, body: string) => {
 };
 
 // Esempio di invio di un'email
-sendEmail('sergeguea.info@gmail.com', 'prova', 'ciao sono una prova');
+sendEmail('sergeguea.info@gmail.com', 'prova', 'ciao sono una prova2');
 
 
 
