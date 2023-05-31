@@ -1,0 +1,20 @@
+{
+  "name": "invia_email",
+  "version": "1.0.0",
+  "description": "send email",
+  "main": "server.ts",
+  "scripts": {
+    "test": "prova"
+  },
+  "repository": {
+    "type": "git",
+    "url": "invia_email"
+  },
+  "author": "Serge Guea",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "imap": "^0.8.19",
+    "nodemailer": "^6.9.3"
+  }
+}
