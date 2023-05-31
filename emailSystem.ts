@@ -5,14 +5,14 @@ const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
         user: 'gueaserge2@gmail.com',
-        pass: '3892978507Sg%',
+        pass: '**************',
     },
 });
 
 // creo la funzione per inviare l'email 
 const mailOptions = {
     from: 'gueaserge2@gmail.com',
-    to: 'guea.serge@pec.it',
+    to: 'sergeguea.info@gmail.com',
     subject: 'Oggetto prova',
     text: 'Contenuto ciao sono una prova2',
 };
@@ -30,7 +30,7 @@ transporter.sendMail(mailOptions, (error, info) => {
 
 const config = {
     user: 'gueaserge2@gmail.com',
-    password: '3892978507Sg%',
+    password: '**************',
     host: 'imap.gmail.com',
     port: 993,
     tls: true,

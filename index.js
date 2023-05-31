@@ -59,7 +59,7 @@ var transporter = nodemailer_1.default.createTransport({
     service: 'Gmail',
     auth: {
         user: 'gueaserge2@gmail.com',
-        pass: '3892978507Sg%',
+        pass: '**************',
     },
 });
 var sendEmail = function (to, subject, body) { return __awaiter(void 0, void 0, void 0, function () {
