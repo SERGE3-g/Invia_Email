@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Invia email</title>
+</head>
+<body>
+    <h1>Invia email</h1>
+    <p>Compila il form per inviare un'email.</p>
+    <form action="invia_email.php" method="post">
+        <label for="destinatario">Destinatario:</label>
+        <input type="email" id="destinatario" name="destinatario" required><br>
+      
+        <label for="oggetto">Oggetto:</label>
+        <input type="text" id="oggetto" name="oggetto" required><br>
+      
+        <label for="corpo">Corpo dell'email:</label>
+        <textarea id="corpo" name="corpo" required></textarea><br>
+      
+        <input type="submit" value="Invia email">
+      </form>
+</body>
+</html>
+
+  
