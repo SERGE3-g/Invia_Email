@@ -1,0 +1,95 @@
+<!-- <aside class="menu">
+    <p class="menu-label">
+      General
+    </p>
+    <ul class="menu-list">
+      <li><a>Dashboard</a></li>
+      <li><a>Customers</a></li>
+    </ul>
+    <p class="menu-label">
+      Administration
+    </p>
+    <ul class="menu-list">
+      <li><a>Team Settings</a></li>
+      <li>
+        <a class="is-active">Manage Your Team</a>
+        <ul>
+          <li><a>Members</a></li>
+          <li><a>Plugins</a></li>
+          <li><a>Add a member</a></li>
+        </ul>
+      </li>
+      <li><a>Invitations</a></li>
+      <li><a>Cloud Storage Environment Settings</a></li>
+      <li><a>Authentication</a></li>
+    </ul>
+    <p class="menu-label">
+      Transactions
+    </p>
+    <ul class="menu-list">
+      <li><a>Payments</a></li>
+      <li><a>Transfers</a></li>
+      <li><a>Balance</a></li>
+    </ul>
+  </aside> 
+
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#">Navbar</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Benvenuti nel nostro sito!</h2>
+        <p>Siamo un'azienda che offre servizi di marketing e comunicazione.</p>
+        <button class="btn btn-primary">Scopri di più</button>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/500x500" alt="Immagine del prodotto">
+      </div>
+    </div>
+  </div> -->
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#">Navbar</a>
+    </div>
+    <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" [ngClass]="{'show': isMenuOpen}">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 3</a>
+        </li>
+      </ul>
+    </div>
+  </nav>

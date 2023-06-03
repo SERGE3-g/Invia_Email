@@ -1,0 +1,126 @@
+/* .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/menu-1767483-1502435.png');
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .navbar-collapse {
+    display: none;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #343a40;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+   .navbar-collapse {
+      display: block;
+    }
+   .navbar-nav {
+      flex-direction: column;
+    }
+   .nav-item {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+   */
+
+   .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar-brand a {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .navbar-toggler-icon {
+    width: 18px;
+    height: 18px;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .navbar-collapse {
+    display: none;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  
+  .navbar-collapse.show {
+    display: flex;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-nav a:hover {
+    background-color: #f8f9fa;
+  }
